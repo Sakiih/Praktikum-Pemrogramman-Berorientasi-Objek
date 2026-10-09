@@ -1,7 +1,11 @@
 # 💻 Praktikum Pemrograman Berorientasi Objek
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Object%20Oriented%20Programming&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Practical%20Learning%20%7C%20PHP%20%7C%20OOP&descSize=16&descAlignY=60" width="100%" alt="OOP Repository Banner"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:1D4ED8&height=180&section=header&text=Praktikum%20PBO&fontSize=42&fontColor=FFFFFF&fontAlignY=40&desc=PHP%20%7C%20Object%20Oriented%20Programming&descSize=16&descAlignY=65"
+    width="100%"
+    alt="Praktikum Pemrograman Berorientasi Objek"
+  />
 </p>
 
 <p align="center">
