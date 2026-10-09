@@ -134,7 +134,7 @@ Setiap praktikum yang diselesaikan akan ditambahkan secara bertahap agar dokumen
 
 ## 👨‍💻 Author
 
-**Sakiih**
+**Rasya Akmal Sakhi**
 
 Mahasiswa Sistem Informasi — Universitas Tanjungpura
 
