@@ -1,0 +1,10 @@
+{
+    "name": "peminjaman-kendaraan/aplikasi",
+    "description": "Sistem Peminjaman Kendaraan sederhana berbasis PHP OOP",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "PeminjamanKendaraan\\": "src/"
+        }
+    }
+}
