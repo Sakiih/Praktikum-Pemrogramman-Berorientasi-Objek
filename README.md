@@ -1,6 +1,22 @@
-&#x20;\<div align="center">
+<div align="center">
 
-\<img src="./assets/readme-banner.png" width="100%" alt="Praktikum Pemrograman Berorientasi Objek - Retro Pixel Art Banner">
+  <img src="./assets/readme-banner.png"
+       width="100%"
+       alt="Praktikum Pemrograman Berorientasi Objek - Retro Pixel Art Banner">
+
+  <h1>🕹️ PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK</h1>
+
+  <p><code>&gt; Building skills, one line of code at a time_</code></p>
+
+  <p>
+    <strong>Kumpulan Praktikum · Latihan · Tugas · Implementasi OOP</strong>
+  </p>
+
+  <p>
+    📚 Semester Perkuliahan | 💻 PHP & Laravel | 🚀 Learning Journey
+  </p>
+
+</div>
 
 # 🕹️ PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK
 
