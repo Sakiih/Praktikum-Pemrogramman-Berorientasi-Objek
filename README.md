@@ -18,24 +18,6 @@
 
 </div>
 
-# 🕹️ PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK
-
-### `> Building skills, one line of code at a time_`
-
-
-
-
-
-\
-
-
-**Kumpulan Praktikum · Latihan · Tugas · Implementasi OOP**
-
-📚 Semester Perkuliahan | 💻 PHP & Laravel | 🚀 Learning Journey
-
-\</div>
-
----
 
 ## 🖥️ `01. ABOUT THIS REPOSITORY`
 
