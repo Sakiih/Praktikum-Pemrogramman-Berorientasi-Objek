@@ -1,45 +1,35 @@
 # 💻 Praktikum Pemrograman Berorientasi Objek
 
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:1D4ED8&height=180&section=header&text=Praktikum%20PBO&fontSize=42&fontColor=FFFFFF&fontAlignY=40&desc=PHP%20%7C%20Object%20Oriented%20Programming&descSize=16&descAlignY=65"
-    width="100%"
-    alt="Praktikum Pemrograman Berorientasi Objek"
-  />
-</p>
+Repository ini berisi dokumentasi, kumpulan kode program, latihan, dan tugas praktikum mata kuliah **Pemrograman Berorientasi Objek (PBO)**.
 
-<p align="center">
-  <b>Dokumentasi dan kumpulan tugas praktikum Pemrograman Berorientasi Objek.</b>
-  <br>
-  Repository pembelajaran untuk menyimpan kode program, latihan, dan hasil praktikum selama perkuliahan.
-</p>
+Repository dikembangkan sebagai arsip pembelajaran selama perkuliahan, mulai dari penerapan konsep dasar pemrograman PHP, Object-Oriented Programming (OOP), penggunaan Composer, hingga implementasi REST API menggunakan Laravel.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/Tools-Composer-885630?style=for-the-badge&logo=composer&logoColor=white" alt="Composer"/>
-  <img src="https://img.shields.io/badge/Version_Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Platform-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</p>
+Setiap praktikum disimpan berdasarkan folder mingguan agar hasil pengerjaan lebih terstruktur, mudah ditelusuri, dan dapat dikembangkan secara bertahap.
 
 ---
 
 ## 📖 Tentang Repository
 
-Repository ini merupakan dokumentasi kegiatan **Praktikum Pemrograman Berorientasi Objek (PBO)** yang digunakan untuk menyimpan dan mengelola kode program serta tugas praktikum secara terstruktur.
+Repository ini digunakan untuk mendokumentasikan seluruh aktivitas praktikum Pemrograman Berorientasi Objek.
 
-Melalui repository ini, setiap hasil praktikum didokumentasikan menggunakan Git dan GitHub agar perkembangan pembelajaran dapat ditelusuri, kode lebih mudah diakses, dan hasil pengerjaan dapat ditinjau kembali.
+Materi dan implementasi yang dikerjakan mencakup pemahaman konsep pemrograman, penerapan kode program, pengelolaan dependensi, interaksi dengan database, serta pembangunan aplikasi berbasis backend.
+
+Penggunaan Git dan GitHub juga diterapkan sebagai bagian dari proses pembelajaran untuk mengelola perubahan kode, menyimpan riwayat pengerjaan, dan mendokumentasikan perkembangan setiap praktikum.
 
 ## 🎯 Tujuan Pembelajaran
 
-- Memahami dasar-dasar pemrograman berorientasi objek.
-- Melatih kemampuan menulis kode yang terstruktur dan mudah dipelihara.
-- Menerapkan konsep pemrograman melalui latihan dan tugas praktikum.
-- Memahami penggunaan namespace dan autoloading pada PHP.
-- Membiasakan penggunaan Git dan GitHub untuk pengelolaan kode program.
+- Memahami konsep dasar pemrograman berorientasi objek.
+- Menerapkan konsep class, object, property, method, inheritance, encapsulation, dan konsep OOP lainnya.
+- Mengembangkan program PHP dengan struktur kode yang terorganisasi.
+- Memahami namespace, autoloading, dan dependency management menggunakan Composer.
+- Mengimplementasikan operasi CRUD menggunakan database.
+- Memahami konsep REST API dan komunikasi data menggunakan JSON.
+- Mengembangkan REST API menggunakan framework Laravel.
+- Membiasakan penggunaan Git dan GitHub dalam pengelolaan proyek pemrograman.
 
 ## 📂 Struktur Repository
 
-Berikut struktur direktori repository saat ini:
+Berikut struktur direktori utama repository:
 
 ```text
 Praktikum-Pemrogramman-Berorientasi-Objek/
@@ -49,92 +39,240 @@ Praktikum-Pemrogramman-Berorientasi-Objek/
 ├── Praktikum-Mingguan-04/
 ├── Praktikum-Mingguan-05/
 ├── Praktikum-Mingguan-06/
+│
 ├── Praktikum-Mingguan-08/
 │   └── php-namespace/
 │       ├── src/
 │       │   ├── Models/
-│       │   │   ├── Product.php
-│       │   │   └── User.php
 │       │   └── Services/
-│       │       ├── ProductService.php
-│       │       └── UserService.php
-│       ├── vendor/
 │       ├── composer.json
-│       ├── index.php
-│       ├── LICENSE
-│       └── README.md
+│       └── index.php
 │
-├── README.md
-└── LICENSE
+├── Praktikum-Mingguan-10/
+├── Praktikum-Mingguan-11/
+├── Praktikum-Mingguan-12/
+│
+├── Praktikum-Mingguan-15/
+│   └── rest-api/
+│       ├── app/
+│       ├── bootstrap/
+│       ├── config/
+│       ├── database/
+│       ├── public/
+│       ├── resources/
+│       ├── routes/
+│       ├── storage/
+│       ├── tests/
+│       ├── artisan
+│       ├── composer.json
+│       └── package.json
+│
+├── UTS_20_H1101251041/
+│
+├── LICENSE
+└── README.md
 ```
 
-*Catatan: Struktur di atas mengikuti direktori yang telah tersedia dan dapat berkembang seiring bertambahnya praktikum.*
+Struktur di atas merupakan gambaran direktori utama dan beberapa komponen proyek. Setiap folder praktikum dapat memiliki struktur internal yang berbeda sesuai kebutuhan materi dan tugas.
+
+## 📚 Praktikum yang Tersedia
+
+Repository ini menyimpan berbagai hasil pengerjaan praktikum berdasarkan minggu perkuliahan.
+
+| Direktori | Keterangan |
+|---|---|
+| `Praktikum-Mingguan-01` | Dokumentasi dan pengerjaan praktikum minggu 01. |
+| `Praktikum-Mingguan-02` | Dokumentasi dan pengerjaan praktikum minggu 02. |
+| `Praktikum-Mingguan-04` | Dokumentasi dan pengerjaan praktikum minggu 04. |
+| `Praktikum-Mingguan-05` | Dokumentasi dan pengerjaan praktikum minggu 05. |
+| `Praktikum-Mingguan-06` | Dokumentasi dan pengerjaan praktikum minggu 06. |
+| `Praktikum-Mingguan-08` | Implementasi PHP Namespace dan Composer. |
+| `Praktikum-Mingguan-10` | Dokumentasi dan pengerjaan praktikum minggu 10. |
+| `Praktikum-Mingguan-11` | Dokumentasi dan pengerjaan praktikum minggu 11. |
+| `Praktikum-Mingguan-12` | Dokumentasi dan pengerjaan praktikum minggu 12. |
+| `Praktikum-Mingguan-15` | Implementasi REST API menggunakan Laravel. |
+| `UTS_20_H1101251041` | Dokumentasi dan berkas pengerjaan Ujian Tengah Semester. |
+
+### Implementasi REST API — Minggu 15
+
+Pada praktikum minggu 15, dilakukan pembangunan REST API menggunakan Laravel dengan studi kasus pengelolaan data produk.
+
+Implementasi ini menerapkan konsep CRUD (*Create, Read, Update, Delete*) untuk mengelola data produk melalui HTTP Request dan HTTP Response dalam format JSON.
+
+**Fitur yang diimplementasikan:**
+
+- Menampilkan seluruh data produk.
+- Menambahkan data produk baru.
+- Menampilkan detail produk berdasarkan ID.
+- Memperbarui data produk.
+- Menghapus data produk.
+
+**Teknologi yang digunakan:**
+
+- Laravel sebagai framework backend.
+- PHP sebagai bahasa pemrograman.
+- MySQL sebagai sistem manajemen basis data.
+- Eloquent ORM untuk interaksi dengan database.
+- EchoAPI sebagai alat pengujian endpoint REST API.
+
+**Struktur komponen utama:**
+
+| Komponen | Fungsi |
+|---|---|
+| `app/Models/Product.php` | Mendefinisikan model Product dan atribut yang dapat diisi. |
+| `app/Http/Controllers/ProductController.php` | Mengelola proses CRUD produk. |
+| `database/migrations/` | Mendefinisikan struktur tabel database. |
+| `routes/api.php` | Mendefinisikan endpoint REST API. |
+
+**Daftar Endpoint API:**
+
+Base URL pengembangan:
+
+```text
+http://127.0.0.1:8000
+```
+
+| HTTP Method | Endpoint | Fungsi |
+|---|---|---|
+| GET | `/api/products` | Mengambil seluruh data produk. |
+| POST | `/api/products` | Menambahkan produk baru. |
+| GET | `/api/products/{id}` | Mengambil detail produk berdasarkan ID. |
+| PUT | `/api/products/{id}` | Memperbarui data produk. |
+| DELETE | `/api/products/{id}` | Menghapus produk berdasarkan ID. |
+
+**Contoh JSON untuk menambahkan produk:**
+
+```json
+{
+    "name": "Laptop ASUS",
+    "price": 5000000,
+    "description": "Laptop untuk kebutuhan kuliah"
+}
+```
+
+Pengujian endpoint dilakukan menggunakan EchoAPI dengan memeriksa HTTP status code dan response JSON yang dihasilkan oleh server.
 
 ## 🛠️ Teknologi dan Tools
 
-| Teknologi | Kegunaan |
+Berikut teknologi dan perangkat yang digunakan dalam pengerjaan berbagai praktikum:
+
+| Teknologi / Tools | Kegunaan |
 |---|---|
-| PHP | Bahasa pemrograman untuk implementasi program. |
-| Composer | Mengelola konfigurasi autoload dan dependensi PHP. |
-| Git | Melacak perubahan kode dan menyimpan riwayat pengerjaan. |
-| GitHub | Menyimpan repository secara online dan membagikan hasil praktikum. |
-| Visual Studio Code | Editor untuk menulis dan mengelola kode program. |
+| PHP | Bahasa pemrograman backend. |
+| Composer | Mengelola dependensi dan autoload PHP. |
+| Laravel | Framework untuk membangun aplikasi backend dan REST API. |
+| MySQL | Sistem manajemen basis data relasional. |
+| Laragon | Lingkungan pengembangan web lokal. |
+| HeidiSQL | Mengelola dan memeriksa database MySQL. |
+| EchoAPI | Menguji HTTP Request dan REST API. |
+| Git | Melacak perubahan kode dan mengelola versi proyek. |
+| GitHub | Menyimpan repository secara online. |
+| Visual Studio Code | Editor kode untuk mengembangkan proyek. |
 
-## 🚀 Menjalankan Program PHP
+## 🚀 Cara Mengakses Repository
 
-Sebagai contoh, berikut cara menjalankan praktikum PHP Namespace.
+### 1. Clone Repository
 
-**1. Clone repository**
+Jalankan perintah berikut pada terminal:
 
 ```bash
 git clone https://github.com/Sakiih/Praktikum-Pemrogramman-Berorientasi-Objek.git
 ```
 
-**2. Masuk ke direktori praktikum**
+### 2. Masuk ke Direktori Repository
 
 ```bash
-cd Praktikum-Pemrogramman-Berorientasi-Objek/Praktikum-Mingguan-08/php-namespace
+cd Praktikum-Pemrogramman-Berorientasi-Objek
 ```
 
-**3. Periksa instalasi PHP dan Composer**
+Setelah itu, pilih folder praktikum yang ingin dipelajari.
+
+### 3. Menjalankan Praktikum PHP Namespace
+
+Masuk ke direktori proyek:
 
 ```bash
-php -v
-composer --version
+cd Praktikum-Mingguan-08/php-namespace
 ```
 
-**4. Siapkan autoload Composer**
+Instal dependensi Composer:
 
 ```bash
 composer install
 ```
 
-**5. Jalankan program**
+Jalankan program:
 
 ```bash
 php index.php
 ```
 
-Pastikan PHP dan Composer sudah terpasang di komputer sebelum menjalankan perintah di atas.
+### 4. Menjalankan REST API Laravel
 
-## 📚 Praktikum yang Tersedia
+Masuk ke direktori proyek Laravel:
 
-Repository ini disusun berdasarkan folder praktikum mingguan. Setiap folder berisi berkas sesuai kegiatan praktikum yang telah dikerjakan.
+```bash
+cd Praktikum-Mingguan-15/rest-api
+```
 
-| Direktori | Keterangan |
-|---|---|
-| `Praktikum-Mingguan-01` | Dokumentasi praktikum minggu 01. |
-| `Praktikum-Mingguan-02` | Dokumentasi praktikum minggu 02. |
-| `Praktikum-Mingguan-04` | Dokumentasi praktikum minggu 04. |
-| `Praktikum-Mingguan-05` | Dokumentasi praktikum minggu 05. |
-| `Praktikum-Mingguan-06` | Dokumentasi praktikum minggu 06. |
-| `Praktikum-Mingguan-08` | Praktikum PHP Namespace dan Composer. |
+Instal dependensi:
+
+```bash
+composer install
+```
+
+Salin konfigurasi environment:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Buat database baru melalui MySQL dengan nama `rest_api`, kemudian sesuaikan konfigurasi `.env`:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=rest_api
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Generate application key:
+
+```bash
+php artisan key:generate
+```
+
+Jalankan database migration:
+
+```bash
+php artisan migrate
+```
+
+Jalankan server Laravel:
+
+```bash
+php artisan serve
+```
+
+Server pengembangan dapat diakses melalui:
+
+```text
+http://127.0.0.1:8000
+```
+
+Untuk menguji REST API, gunakan EchoAPI atau aplikasi pengujian HTTP lainnya dengan endpoint yang telah dijelaskan pada bagian Implementasi REST API.
+
+**Catatan:** Pastikan PHP, Composer, dan MySQL sudah terpasang serta berjalan. Sesuaikan konfigurasi database dengan lingkungan lokal masing-masing.
 
 ## 🌱 Progress Pembelajaran
 
-Repository ini menjadi catatan perjalanan belajar dalam memahami konsep pemrograman, menyelesaikan tugas praktikum, dan menerapkan pengelolaan kode menggunakan Git.
+Repository ini merupakan dokumentasi perkembangan pembelajaran dalam mata kuliah Pemrograman Berorientasi Objek.
 
-Setiap praktikum yang diselesaikan akan ditambahkan secara bertahap agar dokumentasi tetap terorganisasi dan mudah ditinjau.
+Setiap praktikum menjadi kesempatan untuk mempelajari konsep baru, menerapkan teori ke dalam kode program, memahami kesalahan selama proses pengembangan, dan meningkatkan kemampuan pemrograman secara bertahap.
+
+Seiring bertambahnya materi dan tugas perkuliahan, repository ini akan terus diperbarui agar seluruh hasil pembelajaran tersimpan secara terstruktur.
 
 ## 👨‍💻 Author
 
@@ -143,12 +281,14 @@ Setiap praktikum yang diselesaikan akan ditambahkan secara bertahap agar dokumen
 Mahasiswa Sistem Informasi — Universitas Tanjungpura
 
 - GitHub: [@Sakiih](https://github.com/Sakiih)
-- Repository: [Praktikum Pemrograman Berorientasi Objek](https://github.com/Sakiih/Praktikum-Pemrogramman-Berorientasi-Objek)
+- Repository: [Praktikum Pemrogramman Berorientasi Objek](https://github.com/Sakiih/Praktikum-Pemrogramman-Berorientasi-Objek)
+
+## 📄 License
+
+Repository ini menggunakan lisensi MIT. Silakan lihat berkas [LICENSE](./LICENSE) untuk informasi lebih lanjut.
 
 ---
 
-<p align="center">
-  <i>"Learn by doing, improve by practicing, and grow by building."</i>
-  <br><br>
-  ⭐ Terima kasih telah mengunjungi repository praktikum ini!
-</p>
+"Learn by doing, improve by practicing, and grow by building."
+
+⭐ Terima kasih telah mengunjungi repository praktikum ini!
